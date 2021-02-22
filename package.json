@@ -1,0 +1,19 @@
+{
+	"name": "labs-repo",
+	"version": "1.0.0",
+	"main": "index.js",
+	"repository": "https://github.com/eyehol3/web-uni-course.git",
+	"author": "eyehol3 <eyeh0l3@gmail.com>",
+	"license": "MIT",
+	"devDependencies": {
+		"sass": "^1.32.8"
+	},
+	"scripts": {
+		"dev": "parcel *.html",
+		"build": "parcel build <your entry file>",
+		"cleanup": "rm -rf .cache dist"
+	},
+	"dependencies": {
+		"parcel": "^1.12.4"
+	}
+}
